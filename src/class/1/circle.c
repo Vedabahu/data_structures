@@ -1,3 +1,4 @@
+// Check if a linked list is cyclic or not.
 #include <stdio.h>
 #include <stdlib.h>
 
