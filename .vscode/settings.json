@@ -1,3 +1,4 @@
 {
-    "C_Cpp.default.compilerPath": "E:\\Scoop\\scoop\\apps\\msys2\\current\\clang64\\bin\\clang.exe"
+    "C_Cpp.default.compilerPath": "/usr/sbin/clang",
+    "cmake.configureOnOpen": true
 }

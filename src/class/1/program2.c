@@ -31,7 +31,7 @@ int dequeue() {
 void push(int element) {
 	if (top == MAX - 1){
 		printf("The stack is full!!");
-		return;
+		return 0;
 	}
 	stack[++top] = element;
 }

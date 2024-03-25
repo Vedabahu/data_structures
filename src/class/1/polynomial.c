@@ -20,7 +20,6 @@ void accept_polynomial(polynomial** head, int max) {
 }
 
 void add_polynomial(polynomial** ans_head, polynomial* poly1, polynomial* poly2) {
-
     int sum = 0;
     while (poly1 != NULL) {
         sum = poly1->coefficient + poly2->coefficient;
@@ -57,7 +56,7 @@ int main(void) {
     accept_polynomial(&poly2, max);
     add_polynomial(&ans_poly, poly1, poly2);
 
-    printf("The answer is : ");
+    printf("\nThe answer is : ");
 
     polynomial* temp = ans_poly;
     while (temp != NULL) {
@@ -71,7 +70,6 @@ int main(void) {
         if (temp->next != NULL) {
             printf("%dx^%d + ", temp->coefficient, temp->exponent);
         } else {
-
             printf("%d\n", temp->coefficient);
         }
         temp = temp->next;
@@ -80,6 +78,5 @@ int main(void) {
     free_all(poly1);
     free_all(poly2);
     free_all(ans_poly);
-
     return 0;
 }
