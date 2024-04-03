@@ -9,7 +9,7 @@ typedef struct node {
 } node;
 
 node* addNode(int val) {
-    node* temp = malloc(sizeof(node));
+    node* temp = (node*)malloc(sizeof(node));
     temp->val = val;
     temp->left = NULL;
     temp->right = NULL;

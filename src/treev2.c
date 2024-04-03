@@ -42,6 +42,8 @@ void pprint(tree* root, int space) {
 int main(void) {
     int a[] = {1, 2, 3, 4, 5, 6, 0, 8, 9, 10, 0, 12, 13, 14, 15};
     tree* root = Tree(a, a, 4);
+    // int b[] = {1, 2, 3, 4, 5, 6, 7};
+    // tree* root = Tree(b, b, 3);
     pprint(root, 0);
     printf("Done");
     return 0;

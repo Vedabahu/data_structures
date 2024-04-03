@@ -121,7 +121,7 @@ void delete_even(Node* head) {
 }
 
 int main(void) {
-    Node *doubly_linked_list = NULL, *temp = NULL;
+    Node* doubly_linked_list = NULL;
     while (1) {
         printf("\nChoose : \n");
         printf(" 1 : Insert Front an elment.\n");
